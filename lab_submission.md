@@ -14,7 +14,7 @@ docker run -it --name dbserver-mysql-nairobi -p 3309:3306 customized-ubuntu:1.0`
 Specify your commands here
 apt update
 apt install -y mysql-server mysql-client
-service mysql start
+service mysql start 
 mysql_secure_installation
 ```
 
